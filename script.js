@@ -8,7 +8,7 @@ function createGrille(val){
         div.style.border="1px solid black";
         div.style.width="100%";
         div.style.display="flex";
-        div.style.height=`${900/val}px`;
+        div.style.height=`${600/val}px`;
         div.style.margin="0";
         container.appendChild(div);
         for(let j=0;j<val;j++){

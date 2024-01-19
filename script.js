@@ -13,8 +13,8 @@ function createGrille(val){
         container.appendChild(div);
         for(let j=0;j<val;j++){
             const div1 = document.createElement("div");
-            div1.style.height=`${900/val}px`;
-            div1.style.width=`${900/val}px`;
+            div1.style.height=`${600/val}px`;
+            div1.style.width=`${600/val}px`;
             div1.style.border="1px solid black";
             div1.classList.add("pixel");
             div1.style.margin="0";
